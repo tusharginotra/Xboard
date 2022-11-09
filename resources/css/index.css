@@ -1,0 +1,53 @@
+body{
+    background-color: #EAEAEA;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+/*
+Header css
+*/
+.header{
+    width: 90%;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    padding-left:2rem;
+    padding-top: 1rem;
+    
+}
+.rectangle{
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+    width: 27px;
+    height: 9px;
+}
+#crio-head{
+    color:#292B2E;
+    letter-spacing: 2px;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 600;
+}
+
+/*
+news body
+*/
+.news-body{
+    font-family: 'Montseerat',
+    sans-serif;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height:100%;
+    
+}
+div.carousel-inner>div.carousel-item>div>a>img:hover
+{
+    transition: all 0.5s ease;
+    filter : brightness(50%);
+}
+
+button.accordion-button{
+    color:#737373;
+}
